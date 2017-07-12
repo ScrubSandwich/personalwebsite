@@ -1,12 +1,16 @@
-import React, { Component } from 'react';
-import './Main.css';
+import React, { Component } from 'react'
+import './Main.css'
+
+import Navigation from './Navigation'
+import Home from './Home'
 
 class Main extends Component {
   render() {
     return (
-      <p>
-        Hello, World!
-      </p>
+      <div className="main">
+        <Navigation />
+        <Home />
+      </div>
     )
   }
 }
